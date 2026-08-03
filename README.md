@@ -36,7 +36,7 @@ python3 scripts/claim_daily_credits.py --test
 ### 设置定时任务（launchd）
 
 ```bash
-# 安装定时任务（每天 9:00 自动领取）
+# 安装定时任务（每天 10:00 自动领取）
 cp com.workbuddy.daily-claim.plist ~/Library/LaunchAgents/
 launchctl load ~/Library/LaunchAgents/com.workbuddy.daily-claim.plist
 
